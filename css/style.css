@@ -1,0 +1,220 @@
+body {
+    margin: 0px;
+
+}
+
+#container {
+
+    width: 298px;
+    height: 552px;
+    margin: 50px auto 0 auto;
+}
+
+.background-console {
+    background-color: #4A5BBE;
+}
+
+#div-superior {
+    box-shadow: inset 0px 0px 3px 4px rgba(35, 37, 157, 1);
+    height: 258px;
+    border-radius: 25px 25px 15px 15px;
+}
+
+#div-inferior {
+    height: 295px;
+    border-radius: 15px 15px 25px 25px;
+    box-shadow: inset 0px 0px 3px 4px rgba(35, 37, 157, 1);
+}
+
+#div-central {
+    margin: auto;
+    border-radius: 16px;
+    height: 35px;
+    background: linear-gradient(to bottom, #150480 0%, #8fc6fb 83%, #8fc6fb 90%, #150480 100%);
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 9px 4px -4px rgba(67, 82, 173, 1);
+}
+
+#div-central-1 {
+    width: 25px;
+    border-right: 1px solid black;
+
+}
+
+#div-central-2 {
+    width: 118px;
+    border-top: 1px #6E94E1 solid;
+}
+
+#div-central-3 {
+    width: 100px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#div-central-4 {
+    width: 17px;
+    border-top: 1px #6E94E1 solid;
+}
+
+#div-central-5 {
+    border-left: solid 1px black;
+}
+
+
+/* CONTENIDO DE LA ZONA SUPERIOR */
+
+#circles-c {
+    height: 32px;
+    display: flex;
+}
+
+.big-circle {
+    width: 23px;
+    height: 23px;
+    border-radius: 23px;
+    background: linear-gradient(to right, rgba(143, 198, 251, 1) 0%, rgba(21, 4, 128, 1) 42%, rgba(21, 4, 128, 1) 100%);
+    margin: 6px 0 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-circle-int {
+    width: 20px;
+    height: 20px;
+    background-color: #251CAD;
+    border-radius: 25px;
+    box-shadow: inset -1px 0px 5px 0px rgba(40, 37, 102, 1);
+}
+
+#big-c-position {
+    margin-left: 18px;
+}
+
+#small-circle {
+    background-color: rgba(35, 37, 157, 1);
+    height: 15px;
+    width: 15px;
+    border-radius: 25px;
+    margin: 10px 100px 0 100px;
+}
+
+#m-screen {
+    background-color: #333333;
+    width: 246px;
+    height: 187px;
+    margin: auto;
+    border: 1px solid #404A87;
+}
+
+#screen {
+    margin: 14px 13.5px 0 13.5px;
+}
+
+#screen-text {
+    width: 125px;
+    height: 10px;
+    margin-left: 60px;
+}
+
+#circles-2-c {
+    display: flex;
+    flex-direction: row;
+}
+
+.s-c {
+    width: 18px;
+    height: 18px;
+    border-radius: 23px;
+    background: linear-gradient(to right, rgba(143, 198, 251, 1) 0%, rgba(21, 4, 128, 1) 42%, rgba(21, 4, 128, 1) 100%);
+    margin: 11px 0 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-c-i {
+    width: 15px;
+    height: 15px;
+    background-color: #251CAD;
+    border-radius: 25px;
+    box-shadow: inset -1px 0px 5px 0px rgba(40, 37, 102, 1);
+}
+
+#sc-pos {
+    margin-left: 18px;
+    margin-right: 227px;
+}
+
+/* Contenido zona inferior */
+
+#div-s-1 {
+    margin-top: 21px;
+    height: 31px;
+    display: flex;
+    flex-direction: row;
+}
+
+#s-1-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 134.5px;
+    width: 26px;
+    height: 26px;
+    border-radius: 26px;
+    background: linear-gradient(to bottom, rgba(143, 198, 251, 1) 0%, rgba(21, 4, 128, 1) 62%, rgba(21, 4, 128, 1) 100%);
+}
+
+#s-1-int-circle {
+    box-shadow: inset 0px 9px 0px -8px rgba(64, 74, 135, 1);
+    border-radius: 25px;
+    height: 12px;
+    width: 12px;
+    background-color: #596086;
+}
+
+/* LED */
+
+#led-cont {
+    margin-left: 125px;
+}
+
+#led1 {
+    height: 9px;
+    width: 9px;
+    background-color: #4D4F4C;
+    margin-top: 3px;
+}
+
+#led2 {
+    height: 9px;
+    width: 9px;
+    background-color: #4D4F4C;
+    margin-top: 9px;
+}
+
+
+/* BUTTONS */
+
+#buttons-c-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-left: 25px;
+    border-radius: 90px;
+    width: 99px;
+    height: 99px;
+    background: linear-gradient(to bottom, rgba(143, 198, 251, 1) 0%, rgba(21, 4, 128, 1) 62%, rgba(21, 4, 128, 1) 100%);
+}
+
+#buttons-c {
+    width: 85px;
+    height: 85px;
+    background-color: #4A5BBE;
+    border-radius: 90px;
+}
